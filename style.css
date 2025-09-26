@@ -1,0 +1,23 @@
+body {margin:0; font-family:Arial, sans-serif; text-align:center;}
+header {padding:40px; background:#4CAF50; color:white;}
+nav {padding:10px; background:#333;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+.container {padding:20px;}
+.card {background:white; padding:20px; margin:20px auto; max-width:600px;
+       border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);}
+.birthday {background: linear-gradient(to right, #ffecd2, #fcb69f);}
+.balloons {font-size:3em; animation: float 5s infinite;}
+.landing {background:#282c34; color:white;}
+.landing header {padding:100px 20px;}
+footer {padding:20px; background:#20232a; color:#999;}
+.btn {background:#61dafb; color:#282c34; padding:15px 30px; border:none;
+      border-radius:8px; font-size:1em; cursor:pointer; text-decoration:none;}
+.btn:hover {background:#21a1f1;}
+/* Animations */
+@keyframes float {0%{transform:translateY(0);}50%{transform:translateY(-20px);}100%{transform:translateY(0);}}
+.fade-in {opacity:0; animation: fadeIn 2s forwards;}
+@keyframes fadeIn {to {opacity:1;}}
+.fade-up {opacity:0; transform:translateY(20px); animation: fadeUp 2s forwards;}
+@keyframes fadeUp {to {opacity:1; transform:translateY(0);}}
+.pulse {animation: pulse 2s infinite;}
+@keyframes pulse {0%{transform:scale(1);}50%{transform:scale(1.05);}100%{transform:scale(1);}}
